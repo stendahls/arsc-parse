@@ -10,13 +10,13 @@ It will download the latest version for your platform and store that in a `binar
 Since this module downloads the official jar, unpacks it and runs it, we need java.
 
 ## Installation
-```
+```bash
 npm i @stendahls/arsc-parse
 ```
 
 ## Usage
 
-```
+```javascript
 const path = require( 'path' );
 
 const arscParse = require( '@stendahls/arsc-parse' );
