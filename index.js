@@ -70,7 +70,7 @@ const downloadFile = function downloadFile( url, version ) {
                     return reject( extractError );
                 }
 
-                fs.chmod( path.join( __dirname, 'binaries', `${ version }-${ getGooglePlatform() }`, 'aapt2' ), fs.constants.S_IXUSR, ( chmodError ) => {
+                fs.chmod( path.join( __dirname, 'binaries', `${ version }-${ getGooglePlatform() }`, 'aapt2' ), 0o755, ( chmodError ) => {
                     if ( chmodError ) {
                         return reject( chmodError );
                     }
