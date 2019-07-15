@@ -1,5 +1,7 @@
 # ARSC parse
 
+![npm](https://img.shields.io/npm/v/@stendahls/arsc-parse.svg)
+
 This is just a wrapper around [aapt2](https://developer.android.com/studio/command-line/aapt2) to get information from a Resources.arsc in an apk.
 
 It will download the latest version for your platform and store that in a `binaries` folder locally.
