@@ -1,0 +1,22 @@
+{
+  "name": "@stendahls/arsc-parse",
+  "version": "1.0.0",
+  "description": "Simple wrapper around [aapt2](https://developer.android.com/studio/command-line/aapt2) to get information from a Resources.arsc in an apk.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "extract-zip": "^1.6.7",
+    "fast-xml-parser": "^3.12.17",
+    "node-fetch": "^2.6.0",
+    "tempy": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
